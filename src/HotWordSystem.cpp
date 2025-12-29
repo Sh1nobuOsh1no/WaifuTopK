@@ -39,7 +39,7 @@ std::string HotWordSystem::get_word_by_id(uint64_t id) const {
 void HotWordSystem::add_message(const std::string& content, long long timestamp_ms) {
     // 1. 分词 (锁外进行)
     std::vector<std::string> words;
-    jieba_->Cut(content, words, false);
+    jieba_->Cut(content, words, true);
     if (words.empty()) return;
 
     long long timestamp_sec = timestamp_ms / 1000;
