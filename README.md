@@ -1,4 +1,4 @@
-# scJieBa：用于 Waifu 的 Top-K 获取
+# JieBa：用于 Waifu 的 Top-K 获取
 
 ![Version](https://img.shields.io/badge/version-0.5-blue)
 ![Language](https://img.shields.io/badge/language-C%2B%2B-orange)
